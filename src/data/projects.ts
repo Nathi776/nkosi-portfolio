@@ -25,7 +25,7 @@ export const projects: Project[] = [
     title: "SME Credit Scoring & Invoice Finance",
     shortDesc: "Automated risk evaluation and invoice financing platform for small businesses.",
     category: "FINTECH PLATFORM",
-    image: "https://media.base44.com/images/public/6a3819d607ebb1ba908853c0/58583fc06_generated_18860c4a.png",
+    image: "/projects/SME/screenshot.png",
     github: "https://github.com/Nathi776/SME",
     live: null,
     overview:
@@ -44,7 +44,7 @@ export const projects: Project[] = [
     diagrams: [
       {
         label: "Invoice Finance Processing Lifecycle",
-        image: "https://media.base44.com/images/public/6a3819d607ebb1ba908853c0/58583fc06_generated_18860c4a.png",
+        image: "/projects/SME/screenshot.png",
       },
     ],
     challenges: [
@@ -61,7 +61,7 @@ export const projects: Project[] = [
     title: "ISS & Satellite Orbit Tracker",
     shortDesc: "Orbital projection tracker that calculates ISS passes over African regions.",
     category: "SCIENTIFIC UTILITY",
-    image: "https://media.base44.com/images/public/6a3819d607ebb1ba908853c0/3526bfc23_generated_8ef141e9.png",
+    image: "/projects/satellite-tracker/screenshot.png",
     github: "https://github.com/Nathi776/satellite-tracker",
     live: null,
     overview:
@@ -79,7 +79,7 @@ export const projects: Project[] = [
     diagrams: [
       {
         label: "Real-time Telemetry Calculation Pipeline",
-        image: "https://media.base44.com/images/public/6a3819d607ebb1ba908853c0/3526bfc23_generated_8ef141e9.png",
+        image: "/projects/satellite-tracker/screenshot.png",
       },
     ],
     challenges: [
@@ -96,7 +96,7 @@ export const projects: Project[] = [
     title: "Counter Scam Safeguard",
     shortDesc: "Protection platform utilizing rule-based checks and machine learning.",
     category: "SECURITY PLATFORM",
-    image: "/projects/CounterScam/arch.png",
+    image: "/projects/CounterScam/screenshot.png",
     github: "https://github.com/Nathi776/CounterScam",
     live: null,
     overview:
@@ -133,7 +133,7 @@ export const projects: Project[] = [
     title: "Student Attendance Tracker",
     shortDesc: "A lightweight tracking portal to automate attendance record management.",
     category: "MANAGEMENT PORTAL",
-    image: "https://media.base44.com/images/public/6a3819d607ebb1ba908853c0/6a3819d607ebb1ba908853c0_generated_6a3819d607ebb1ba908853c0.png",
+    image: "/projects/StudentAttendanceTrackingSystem/screenshot.png",
     github: "https://github.com/Nathi776/StudentAttendanceTrackingSystem",
     live: null,
     overview:
@@ -152,7 +152,7 @@ export const projects: Project[] = [
     diagrams: [
       {
         label: "Roster Management Architecture",
-        image: "https://media.base44.com/images/public/6a3819d607ebb1ba908853c0/6a3819d607ebb1ba908853c0_generated_6a3819d607ebb1ba908853c0.png",
+        image: "/projects/StudentAttendanceTrackingSystem/screenshot.png",
       },
     ],
     challenges: [

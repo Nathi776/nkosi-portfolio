@@ -45,14 +45,14 @@ export default function Footer() {
     <footer className="px-6 md:px-[5vw] py-12 border-t border-border">
       <div className="flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="font-mono text-xs text-muted-foreground tracking-wider">
-          © {new Date().getFullYear()} NKOSI — DESIGNED & BUILT WITH PRECISION
+          © {new Date().getFullYear()} NKOSINATHI SIMELANE — DESIGNED & BUILT WITH PRECISION
         </div>
 
         <div className="flex items-center gap-4">
           <a
-            href="mailto:nkosinathi.simelane.dev@gmail.com"
+            href="mailto:Snkosinathi45@gmail.com"
             className="min-h-[44px] min-w-[44px] flex items-center justify-center text-muted-foreground hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-4 focus:ring-offset-background rounded"
-            aria-label="Email Nkosi"
+            aria-label="Email Nkosinathi Simelane"
           >
             <Mail size={18} />
           </a>
@@ -66,7 +66,7 @@ export default function Footer() {
             <Github size={18} />
           </a>
           <a
-            href="https://linkedin.com/in/nkosinathi-simelane"
+            href="https://linkedin.com/in/nkosinathi-simelane-937183240/"
             target="_blank"
             rel="noopener noreferrer"
             className="min-h-[44px] min-w-[44px] flex items-center justify-center text-muted-foreground hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-4 focus:ring-offset-background rounded"

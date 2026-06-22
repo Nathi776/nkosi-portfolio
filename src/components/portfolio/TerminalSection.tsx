@@ -47,7 +47,7 @@ interface HistoryLine {
 }
 
 const terminalHistory: HistoryLine[] = [
-  { type: "system", text: "Nkosi Terminal v1.0.0" },
+  { type: "system", text: "Nkosinathi Simelane Terminal v1.0.0" },
   { type: "system", text: "Type 'hello' to reveal contact info, or use the links below." },
   { type: "system", text: "---" },
 ];
@@ -66,9 +66,9 @@ export default function TerminalSection() {
     const newHistory = [...history, { type: "user" as const, text: `> ${input}` }];
 
     if (cmd === "hello" || cmd === "hi" || cmd === "contact") {
-      newHistory.push({ type: "response" as const, text: "📧 nkosinathi.simelane.dev@gmail.com" });
+      newHistory.push({ type: "response" as const, text: "📧 Snkosinathi45@gmail.com" });
       newHistory.push({ type: "response" as const, text: "🔗 github.com/Nathi776" });
-      newHistory.push({ type: "response" as const, text: "💼 linkedin.com/in/nkosinathi-simelane" });
+      newHistory.push({ type: "response" as const, text: "💼 linkedin.com/in/nkosinathi-simelane-937183240/" });
       newHistory.push({ type: "system" as const, text: "--- Looking forward to connecting! ---" });
       setRevealed(true);
     } else if (cmd === "help") {
@@ -118,11 +118,11 @@ export default function TerminalSection() {
           {/* Direct links */}
           <div className="space-y-4">
             <a
-              href="mailto:nkosinathi.simelane.dev@gmail.com"
+              href="mailto:Snkosinathi45@gmail.com"
               className="flex items-center gap-3 font-mono text-sm text-muted-foreground hover:text-primary transition-colors group min-h-[44px] focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-4 focus:ring-offset-background rounded"
             >
               <Mail size={18} className="group-hover:text-primary transition-colors" />
-              <span>nkosinathi.simelane.dev@gmail.com</span>
+              <span>Snkosinathi45@gmail.com</span>
             </a>
             <a
               href="https://github.com/Nathi776"
@@ -134,13 +134,13 @@ export default function TerminalSection() {
               <span>github.com/Nathi776</span>
             </a>
             <a
-              href="https://linkedin.com/in/nkosinathi-simelane"
+              href="https://linkedin.com/in/nkosinathi-simelane-937183240/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 font-mono text-sm text-muted-foreground hover:text-primary transition-colors group min-h-[44px] focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-4 focus:ring-offset-background rounded"
             >
               <Linkedin size={18} className="group-hover:text-primary transition-colors" />
-              <span>linkedin.com/in/nkosinathi-simelane</span>
+              <span>linkedin.com/in/nkosinathi-simelane-937183240/</span>
             </a>
           </div>
         </div>
@@ -155,7 +155,7 @@ export default function TerminalSection() {
             <div className="w-3 h-3 rounded-full bg-destructive/60" />
             <div className="w-3 h-3 rounded-full bg-chart-4/60" />
             <div className="w-3 h-3 rounded-full bg-chart-2/60" />
-            <span className="font-mono text-xs text-muted-foreground ml-2">nkosi@portfolio:~</span>
+            <span className="font-mono text-xs text-muted-foreground ml-2">nkosinathi@portfolio:~</span>
           </div>
 
           {/* Terminal body */}

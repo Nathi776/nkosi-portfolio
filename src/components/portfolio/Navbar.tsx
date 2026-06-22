@@ -48,7 +48,7 @@ export default function Navbar() {
           }}
           className="font-mono text-sm tracking-widest text-foreground hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-4 focus:ring-offset-background rounded"
         >
-          NKOSI_
+          NKOSINATHI SIMELANE_
         </Link>
 
         {/* Desktop */}
@@ -64,7 +64,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="mailto:nkosinathi.simelane.dev@gmail.com"
+            href="mailto:Snkosinathi45@gmail.com"
             className="font-mono text-xs tracking-wider bg-primary text-primary-foreground px-4 py-2 rounded min-h-[44px] flex items-center hover:bg-primary/90 transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-4 focus:ring-offset-background"
           >
             CONNECT
@@ -102,7 +102,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="mailto:nkosinathi.simelane.dev@gmail.com"
+              href="mailto:Snkosinathi45@gmail.com"
               className="font-mono text-lg tracking-widest bg-primary text-primary-foreground px-6 py-3 rounded min-h-[44px] flex items-center focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-4 focus:ring-offset-background"
             >
               CONNECT

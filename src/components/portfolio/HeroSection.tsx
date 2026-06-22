@@ -102,7 +102,7 @@ export default function HeroSection({ bgImage }: HeroSectionProps) {
           <h1 className="font-heading font-bold text-foreground leading-[0.9] tracking-tight"
             style={{ fontSize: "clamp(3rem, 8vw, 10rem)" }}
           >
-            NKOSI
+            NKOSINATHI SIMELANE
           </h1>
           <div className="mt-6 max-w-md">
             <p className="text-muted-foreground text-base md:text-lg leading-relaxed font-body">
